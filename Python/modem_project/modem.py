@@ -23,8 +23,8 @@ driver = webdriver.Chrome(
     options=options,
     executable_path=r"/usr/local/bin/chromedriver",
 )
-usr = "sertac"
-psw = "agungun1"
+usr = ""
+psw = ""
 
 def check_exists(xpath):
     try:
